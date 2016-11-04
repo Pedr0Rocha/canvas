@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,600,700|Lato:400, 600, 700);
+
+/* Basic CSS */ 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.ff-open{
+	font-family: 'Open Sans', sans-serif;
+}
+.ff-lato{
+	font-family: 'Lato', sans-serif;
+}
+.ff-baron {
+	font-family: 'Baron Neue';
+	src: url(../fonts/baron/BaronNeue.otf);
+}
+.no-padding {
+	padding: 0 !important;
+}
+.no-padding-left {
+	padding-left: 0 !important;
+}
+.no-padding-right {
+	padding-right: 0 !important;
+}
+.transition{
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+body {
+	background-color: #e7e7e7 !important;
+}
+header .container {
+	background-color: #fff !important;
+}
+.titulo-section-box {
+	margin: 15px 0;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.titulo-section {
+	font-size: 35px;
+	border-top: 1px solid #565656;
+	border-bottom: 1px solid #565656;
+	padding: 6px 0;
+}
+
+/* Header CSS */ 
+.header-firstrow {
+	margin-top: 5px;
+}
+.ul-firstrow {
+	text-align: right;
+}
+.ul-firstrow li a {
+	font-size: 13px;
+	color: #565656;
+	vertical-align: sub;
+}
+.imglogo {
+	width: 30%;
+}
+.logo-box {
+}
+.input-busca {
+	background: transparent;
+	border: 1px solid #565656;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Lato';
+}
+.li-lupa {
+	text-align: left;
+	padding-left: 5px !important;
+	font-size: 18px !important;
+}
+.ul-menu {
+	text-align: center;
+}
+.ul-menu li {    
+	padding: 8px 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	color: #565656;
+}
+.ul-menu a li {
+	border-right: 1px solid #565656;
+}
+.ul-menu a:nth-child(1) li {
+	border-left: 1px solid #565656;
+}
+.ul-menu a:hover li{
+	letter-spacing: 2px;
+}
+
+/* Banner  CSS */ 
+.carousel-control.right, .carousel-control.left {
+	background-image: none !important;
+	text-shadow: none;
+}
+
+/* Home CSS */ 
+.section-home {
+	background-color: #fff;
+}
+.view-index .section-home {
+
+}
+.view-index .section-home .img-estampas.imgLiquid {
+	height: 335px;
+}
+.view-index .section-home .img-votacao.imgLiquid {
+	height: 245px;
+}
+.view-index .btn-vote {
+	padding: 2px;
+	background-color: #f5b9c2;
+	border: 1px solid transparent;
+	font-weight: bold;
+}
+.view-index .btn-vote:hover {
+	background-color: #d4adb3;
+	border: 1px solid #f5b9c2;
+}
+.view-index .section-home .ul-votacao li {
+	margin-bottom: 35px;
+}
+.view-index .section-home .ul-votacao li .item.esq{
+	margin-right: 5px;
+}
+.view-index .section-home .ul-votacao li .item.dir{
+	margin-left: 5px;
+}
+.view-index .section-home .titulo-votacao {
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
