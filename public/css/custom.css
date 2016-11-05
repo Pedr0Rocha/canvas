@@ -1,11 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,600,700|Lato:400, 600, 700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400, 600, 700|Open+Sans:400,600,700|Lato:400, 600, 700|Roboto+Condensed:400, 600, 700);
+
+@font-face {
+	font-family: BaronNeue;
+	src: url("../fonts/baronneue/BaronNeue.otf") format("opentype");
+}
 
 /* Basic CSS */ 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -13,18 +18,20 @@ a {
 ul {
 	list-style: none;
 }
-.roboto{
-	font-family: 'Roboto', sans-serif;
-}
 .ff-open{
 	font-family: 'Open Sans', sans-serif;
 }
 .ff-lato{
 	font-family: 'Lato', sans-serif;
 }
+.ff-ptsans{
+	font-family: 'PT Sans', sans-serif;
+}
 .ff-baron {
-	font-family: 'Baron Neue';
-	src: url(../fonts/baron/BaronNeue.otf);
+	font-family: 'BaronNeue';
+}
+.ff-roboto {
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .no-padding {
 	padding: 0 !important;
@@ -46,6 +53,9 @@ body {
 }
 header .container {
 	background-color: #fff !important;
+}
+.bg-white {
+	background-color: #fff;
 }
 .titulo-section-box {
 	margin: 15px 0;
@@ -74,8 +84,11 @@ header .container {
 }
 .imglogo {
 	width: 30%;
+	opacity: 0.925;
 }
 .logo-box {
+	background-image: url(../img/bricks2.jpg);
+	border-radius: 10px 10px 0 0;
 }
 .input-busca {
 	background: transparent;
@@ -91,6 +104,7 @@ header .container {
 }
 .ul-menu {
 	text-align: center;
+	margin-top: 10px;
 }
 .ul-menu li {    
 	padding: 8px 0px;
@@ -100,11 +114,8 @@ header .container {
 	font-weight: bold;
 	color: #565656;
 }
-.ul-menu a li {
+.ul-menu a:nth-child(-n+5) li {
 	border-right: 1px solid #565656;
-}
-.ul-menu a:nth-child(1) li {
-	border-left: 1px solid #565656;
 }
 .ul-menu a:hover li{
 	letter-spacing: 2px;
@@ -121,7 +132,7 @@ header .container {
 	background-color: #fff;
 }
 .view-index .section-home {
-
+	border-radius: 0 0 10px 10px;
 }
 .view-index .section-home .img-estampas.imgLiquid {
 	height: 335px;
@@ -151,6 +162,30 @@ header .container {
 .view-index .section-home .titulo-votacao {
 	font-size: 24px;
 	margin-top: 5px;
+}
+.view-index .section-home .texto-votacao {
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.view-index .section-home .btn-ver-mais {
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.modal-content-votacao {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+.btn-fechar-votacao {
+	background-color: #f5b9c2;
+	margin-top: 20px;
+	letter-spacing: 1.4px;
+	font-size: 12px !important;
+	font-weight: bold !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

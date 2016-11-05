@@ -28,6 +28,41 @@ $(document).ready(function() {
 
 });
 
+$(window).load(function() {
+	fixVotacao();
+});
+
+function abreTexto(num, btn) {
+	if ($(btn).text() == "Ver mais") {
+		var currentHeight = $('#texto-votacao' + num).height();
+		$('#texto-votacao' + num).css('height', 'auto');
+		var adjustedHeight = $('#texto-votacao' + num).height();
+
+		$('#texto-votacao' + num).height(currentHeight).animate({
+			height: adjustedHeight }, 1000
+		);
+		btn.innerText = "Ver menos";
+
+	} else if ($(btn).text() == "Ver menos") {
+		$('#texto-votacao' + num).animate({
+			height: '80px' }, 1000 
+		);
+		btn.innerText = "Ver mais";
+	}
+}
+
+function fixVotacao() {
+	for (var i = 1; i < 4; i++) {
+		var infoHeight = $('#info-votacao'+i).height();
+		$('#foto-votacao'+i).height(infoHeight);
+		$('#foto-votacao'+i + " img").height(infoHeight);
+	}
+}
+
+function votacao(num) {
+	alert("Obrigado por votar na opção " + num);
+}
+
 function scrollCustom(id) {
 	$('html, body').animate({scrollTop:$('#' + id).offset().top}, 'slow');
 }
