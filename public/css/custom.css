@@ -68,6 +68,7 @@ header .container {
 	border-top: 1px solid #565656;
 	border-bottom: 1px solid #565656;
 	padding: 6px 0;
+    letter-spacing: 2.4px;
 }
 
 /* Header CSS */ 
@@ -87,8 +88,17 @@ header .container {
 	opacity: 0.925;
 }
 .logo-box {
-	background-image: url(../img/bricks2.jpg);
+	background-image: url(../img/bricks4.jpg);
 	border-radius: 10px 10px 0 0;
+}
+.detalhe-rosa {    
+	border-radius: 5px 0 0 0;
+	background-color: #e5b8c0;
+    opacity: 0.8;
+    position: absolute !important;
+    height: 256px;
+    transform: skewY(13deg);
+    top: 52%;
 }
 .input-busca {
 	background: transparent;
@@ -136,6 +146,7 @@ header .container {
 }
 .view-index .section-home .img-estampas.imgLiquid {
 	height: 335px;
+	border: 3px solid #f5b9c2;
 }
 .view-index .section-home .img-votacao.imgLiquid {
 	height: 245px;
@@ -144,7 +155,6 @@ header .container {
 	padding: 2px;
 	background-color: #f5b9c2;
 	border: 1px solid transparent;
-	font-weight: bold;
 }
 .view-index .btn-vote:hover {
 	background-color: #d4adb3;
