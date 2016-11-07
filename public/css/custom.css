@@ -276,11 +276,11 @@ footer .detalhe-complemento.baixo {
 }
 footer .copyright {   
 	position: absolute;
-    float: right;
-    margin: auto;
-    bottom: 1px;
-    right: 5px;
-    font-size: 10px;
+	float: right;
+	margin: auto;
+	bottom: 1px;
+	right: 5px;
+	font-size: 10px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
