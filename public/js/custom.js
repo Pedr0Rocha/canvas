@@ -2,7 +2,7 @@ $(document).ready(function() {
     $(".imgLiquidFill").imgLiquid();
 
 	$("#owl-votacao1").owlCarousel({
-		autoPlay: 3000,
+		autoPlay: 5000,
 
 		items : 2,
 		itemsDesktop : [1199,3],
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		pagination: true,
 	});
 	$("#owl-votacao2").owlCarousel({
-		autoPlay: 3000,
+		autoPlay: 5000,
 
 		items : 2,
 		itemsDesktop : [1199,3],
@@ -18,7 +18,7 @@ $(document).ready(function() {
 		pagination: true,
 	});
 	$("#owl-votacao3").owlCarousel({
-		autoPlay: 3000,
+		autoPlay: 5000,
 
 		items : 2,
 		itemsDesktop : [1199,3],
@@ -39,13 +39,13 @@ function abreTexto(num, btn) {
 		var adjustedHeight = $('#texto-votacao' + num).height();
 
 		$('#texto-votacao' + num).height(currentHeight).animate({
-			height: adjustedHeight }, 1000
+			height: adjustedHeight }, 500
 		);
 		btn.innerText = "Ver menos";
 
 	} else if ($(btn).text() == "Ver menos") {
 		$('#texto-votacao' + num).animate({
-			height: '80px' }, 1000 
+			height: '80px' }, 500 
 		);
 		btn.innerText = "Ver mais";
 	}
