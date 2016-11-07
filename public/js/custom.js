@@ -2,7 +2,7 @@ $(document).ready(function() {
     $(".imgLiquidFill").imgLiquid();
 
 	$("#owl-votacao1").owlCarousel({
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay: 3000,
 
 		items : 2,
 		itemsDesktop : [1199,3],
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		pagination: true,
 	});
 	$("#owl-votacao2").owlCarousel({
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay: 3000,
 
 		items : 2,
 		itemsDesktop : [1199,3],
@@ -18,7 +18,7 @@ $(document).ready(function() {
 		pagination: true,
 	});
 	$("#owl-votacao3").owlCarousel({
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay: 3000,
 
 		items : 2,
 		itemsDesktop : [1199,3],

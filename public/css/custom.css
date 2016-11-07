@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Lato', sans-serif;
 }
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 ul {
 	list-style: none;
@@ -79,29 +79,23 @@ header .container {
 	text-align: right;
 }
 .ul-firstrow li a {
-	font-size: 13px;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
 	color: #565656;
 	vertical-align: sub;
 }
 .imglogo {
-	width: 30%;
-	opacity: 0.925;
+	width: 40%;
+	opacity: 0.95;
 }
 .logo-box {
 	background-image: url(../img/bricks4.jpg);
 	border-radius: 10px 10px 0 0;
 }
-.detalhe-rosa {    
-	border-radius: 5px 0 0 0;
-	background-color: #e5b8c0;
-    opacity: 0.8;
-    position: absolute !important;
-    height: 256px;
-    transform: skewY(13deg);
-    top: 52%;
-}
 .input-busca {
-	background: transparent;
+	background: #eee;
 	border: 1px solid #565656;
 	outline: none;
 	font-size: 14px;
@@ -111,6 +105,24 @@ header .container {
 	text-align: left;
 	padding-left: 5px !important;
 	font-size: 18px !important;
+}
+.redes-sociais {
+	margin-top: 10px;
+	text-align: right;
+	font-size: 25px;
+}
+.redes-sociais .fa {
+	padding: 8px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.redes-sociais .fa:hover {
+    border: 3px solid #333;
+    background-color: transparent;
+    color: #333;
 }
 .ul-menu {
 	text-align: center;
@@ -146,10 +158,22 @@ header .container {
 }
 .view-index .section-home .img-estampas.imgLiquid {
 	height: 335px;
-	border: 3px solid #f5b9c2;
 }
 .view-index .section-home .img-votacao.imgLiquid {
 	height: 245px;
+}
+.view-index .section-home .estampas-box {
+	border: 3px solid #f5b9c2;
+    padding: 10px;
+    filter: brightness(100%);
+}
+.view-index .section-home .estampas-box:hover {
+	border: 3px solid #f5b9c2;
+    padding: 0px;
+    filter: brightness(80%);
+}
+.view-index .section-home ul li.estampas-box:nth-child(1n+2) {
+	border-left: 0;
 }
 .view-index .btn-vote {
 	padding: 2px;
