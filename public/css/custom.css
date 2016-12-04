@@ -63,6 +63,10 @@ header .container {
 	padding: 6px 0;
     letter-spacing: 2.4px;
 }
+.content-section {
+	border-radius: 0 0 10px 10px;
+	background-color: #fff;
+}
 
 /******************************/
 /********* Fonts **************/ 
@@ -187,12 +191,6 @@ header .container {
 /******************************/
 /********* Home CSS ***********/ 
 /******************************/
-.section-home {
-	background-color: #fff;
-}
-.view-index .section-home {
-	border-radius: 0 0 10px 10px;
-}
 .view-index .section-home .img-estampas.imgLiquid {
 	height: 335px;
 }
@@ -312,9 +310,6 @@ header .container {
 /******************************/
 /********* Up to You CSS ******/
 /******************************/
-.view-uptoyou .voting-section {
-	background-color: #fff;
-}
 .view-uptoyou .btn-vote {
 	padding: 2px;
 	background-color: #f5b9c2;
