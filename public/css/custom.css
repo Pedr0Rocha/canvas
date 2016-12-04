@@ -5,7 +5,9 @@
 	src: url("../fonts/baronneue/BaronNeue.otf") format("opentype");
 }
 
-/* Basic CSS */ 
+/******************************/
+/********* Basic CSS **********/ 
+/******************************/
 body{
 	font-family: 'Lato', sans-serif;
 }
@@ -17,21 +19,6 @@ a {
 }
 ul {
 	list-style: none;
-}
-.ff-open{
-	font-family: 'Open Sans', sans-serif;
-}
-.ff-lato{
-	font-family: 'Lato', sans-serif;
-}
-.ff-ptsans{
-	font-family: 'PT Sans', sans-serif;
-}
-.ff-baron {
-	font-family: 'BaronNeue';
-}
-.ff-roboto {
-	font-family: 'Roboto Condensed', sans-serif;
 }
 .no-padding {
 	padding: 0 !important;
@@ -77,12 +64,30 @@ header .container {
     letter-spacing: 2.4px;
 }
 
-/* Header CSS */ 
+/******************************/
+/********* Fonts **************/ 
+/******************************/
+.ff-open{
+	font-family: 'Open Sans', sans-serif;
+}
+.ff-lato{
+	font-family: 'Lato', sans-serif;
+}
+.ff-ptsans{
+	font-family: 'PT Sans', sans-serif;
+}
+.ff-baron {
+	font-family: 'BaronNeue';
+}
+.ff-roboto {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/******************************/
+/********* Header CSS *********/ 
+/******************************/
 .header-firstrow {
 	margin-top: 5px;
-}
-.ul-firstrow {
-	text-align: right;
 }
 .header-firstrow.left {
 	text-align: center;
@@ -91,6 +96,9 @@ header .container {
 .header-firstrow.left ul {
 	background-color: #333333;
 	border-radius: 5px;
+}
+.ul-firstrow {
+	text-align: right;
 }
 .ul-firstrow li a {
 	font-size: 10px;
@@ -168,13 +176,17 @@ header .container {
 	letter-spacing: 2px;
 }
 
-/* Banner  CSS */ 
+/******************************/
+/********* Banner  CSS ********/ 
+/******************************/
 .carousel-control.right, .carousel-control.left {
 	background-image: none !important;
 	text-shadow: none;
 }
 
-/* Home CSS */ 
+/******************************/
+/********* Home CSS ***********/ 
+/******************************/
 .section-home {
 	background-color: #fff;
 }
@@ -190,12 +202,18 @@ header .container {
 .view-index .section-home .estampas-box {
 	border: 3px solid #f5b9c2;
     padding: 10px;
-    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -moz-filter:    brightness(100%);
+    -o-filter:      brightness(100%);
+    filter:         brightness(100%);
 }
 .view-index .section-home .estampas-box:hover {
 	border: 3px solid #f5b9c2;
     padding: 0px;
-    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+    -moz-filter:    brightness(80%);
+    -o-filter:      brightness(80%);
+    filter:         brightness(80%);
 }
 .view-index .section-home ul li.estampas-box:nth-child(1n+2) {
 	border-left: 0;
@@ -254,7 +272,9 @@ header .container {
 	font-weight: bold;
 }
 
-/* Camisetas CSS */ 
+/******************************/
+/********* Camisetas CSS ******/ 
+/******************************/
 .view-camisetas .listagem-camisetas {
 	background-color: #fff;
 }
@@ -264,15 +284,13 @@ header .container {
 }
 .view-camisetas .listagem-camisetas li:hover {
 	border: 1px solid #f5b9c2;
-	padding-left: 0;
-	padding-right: 0;
+	padding: 0;
 }
 .view-camisetas .listagem-camisetas li:hover .img-estampas {
 	margin: 0;
 }
 .view-camisetas .listagem-camisetas li:hover .item-info {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0 15px;
 }
 .view-camisetas .img-estampas.imgLiquid {
 	height: 350px;
@@ -291,8 +309,10 @@ header .container {
 	border-top: 1px dashed #eee;
 }
 
-/* Up to You CSS*/
-.view-uptoyou .uptoyou {
+/******************************/
+/********* Up to You CSS ******/
+/******************************/
+.view-uptoyou .voting-section {
 	background-color: #fff;
 }
 .view-uptoyou .btn-vote {
@@ -340,10 +360,11 @@ header .container {
 	height: 245px;
 }
 
-/* Footer CSS */ 
+/******************************/
+/********* Footer CSS *********/ 
+/******************************/
 footer {
-	margin-top: 25px;
-	margin-bottom: 10px;
+	margin: 25px 0 10px 0;
 }
 footer .conteudo-footer {
 	background-color: #fff;
