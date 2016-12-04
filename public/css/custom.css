@@ -48,6 +48,12 @@ ul {
 	-o-transition:all 0.3s ease;
 	transition:all 0.3s ease;
 }
+.truncate {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 body {
 	background-color: #e7e7e7 !important;
 }
@@ -78,6 +84,14 @@ header .container {
 .ul-firstrow {
 	text-align: right;
 }
+.header-firstrow.left {
+	text-align: center;
+	margin-top: 10px;
+}
+.header-firstrow.left ul {
+	background-color: #333333;
+	border-radius: 5px;
+}
 .ul-firstrow li a {
 	font-size: 10px;
 	font-weight: bold;
@@ -85,6 +99,17 @@ header .container {
 	text-transform: uppercase;
 	color: #565656;
 	vertical-align: sub;
+}
+.ul-firstrow li.vantagens {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: #fff;
+	vertical-align: sub;	
+}
+.ul-firstrow li .fa {
+	color: #e5b8c0;
 }
 .imglogo {
 	width: 40%;
@@ -229,6 +254,42 @@ header .container {
 	font-weight: bold;
 }
 
+/* Camisetas CSS */ 
+.view-camisetas .listagem-camisetas {
+	background-color: #fff;
+}
+.view-camisetas .listagem-camisetas li {
+	margin-top: 10px;
+	border: 1px solid transparent;
+}
+.view-camisetas .listagem-camisetas li:hover {
+	border: 1px solid #565656;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.view-camisetas .listagem-camisetas li:hover .img-estampas {
+	margin: 0 !important;
+}
+.view-camisetas .listagem-camisetas li:hover .item-info {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.view-camisetas .img-estampas.imgLiquid {
+	height: 350px;
+	margin-top: 15px;
+}
+.view-camisetas .listagem-camisetas .item-info {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	color: #565656;
+	height: 55px;
+	overflow: hidden;
+}
+.view-camisetas .divisor-camisetas {
+	border-top: 1px dashed #eee;
+}
 /* Footer CSS */ 
 footer {
 	margin-top: 25px;
