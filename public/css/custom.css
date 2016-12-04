@@ -263,16 +263,16 @@ header .container {
 	border: 1px solid transparent;
 }
 .view-camisetas .listagem-camisetas li:hover {
-	border: 1px solid #565656;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	border: 1px solid #f5b9c2;
+	padding-left: 0;
+	padding-right: 0;
 }
 .view-camisetas .listagem-camisetas li:hover .img-estampas {
-	margin: 0 !important;
+	margin: 0;
 }
 .view-camisetas .listagem-camisetas li:hover .item-info {
-	padding-left: 15px !important;
-	padding-right: 15px !important;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .view-camisetas .img-estampas.imgLiquid {
 	height: 350px;
@@ -290,6 +290,56 @@ header .container {
 .view-camisetas .divisor-camisetas {
 	border-top: 1px dashed #eee;
 }
+
+/* Up to You CSS*/
+.view-uptoyou .uptoyou {
+	background-color: #fff;
+}
+.view-uptoyou .btn-vote {
+	padding: 2px;
+	background-color: #f5b9c2;
+	border: 1px solid transparent;
+}
+.view-uptoyou .btn-vote:hover {
+	background-color: #d4adb3;
+	border: 1px solid #f5b9c2;
+}
+.view-uptoyou .ul-votacao li {
+	margin-bottom: 35px;
+}
+.view-uptoyou .ul-votacao li .item.esq{
+	margin-right: 5px;
+}
+.view-uptoyou .ul-votacao li .item.dir{
+	margin-left: 5px;
+}
+.view-uptoyou .titulo-votacao {
+	font-size: 24px;
+	margin-top: 5px;
+}
+.view-uptoyou .texto-votacao {
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.view-uptoyou .btn-ver-mais {
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.view-uptoyou .sub-frase {
+	margin-top: 8px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+}
+.view-uptoyou .img-votacao.imgLiquid {
+	height: 245px;
+}
+
 /* Footer CSS */ 
 footer {
 	margin-top: 25px;
@@ -318,11 +368,11 @@ footer ul a:hover {
 	letter-spacing: 2px;
 }
 footer .detalhe-cima, footer .detalhe-baixo {
-	border-top: 1px solid #000;
+	border-top: 1px solid #f5b9c2;
 }
 footer .detalhe-complemento {
 	height: 70px;
-	background-color: #565656;
+	background-color: #f5b9c2;
 	width: 1px;
 	position: absolute;
 	margin: auto;
