@@ -411,6 +411,77 @@ footer .copyright {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	/******************************/
+	/**** Basic Mobile CSS ********/ 
+	/******************************/
+	.container {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	/******************************/
+	/**** Header Mobile CSS *******/ 
+	/******************************/
+	.mobile-header {
+		background-image: url(../img/bricks4.jpg);
+	}
+	.mobile-header .imglogo {
+		width: 30%;
+	}
+	.mobile-header .menu-box {
+		position: absolute;
+		margin: auto;
+		left: 80%;
+		right: 0;
+		width: 15%;
+		border: 3px solid #000;
+		border-radius: 10px;
+		text-align: center;
+		padding: 15px 10px;
+		margin-top: 25px;
+		background-color: #fff;
+		opacity: 0.9;
+	}
+	.mobile-header .fa-bars {
+		font-size: 75px;
+	}
+	.mobile-header .features-box {
+		background-color: #000;
+	}
+	.mobile-header .features-box li {
+		text-align: center;
+	}
+	.ul-firstrow li.vantagens {
+		margin-top: 6px;
+	    font-size: 21px;
+	    color: #fff;
+	}
+	.titulo-section {
+	    font-size: 85px;
+	    border-top: 3px solid #565656;
+	    border-bottom: 3px solid #565656;
+	}
+	/******************************/
+	/**** Index Mobile CSS ********/ 
+	/******************************/
+	.view-index .section-home .sub-frase {
+	    font-size: 27px;
+	}
+	.view-index .section-home .img-estampas.imgLiquid {
+	    height: 645px;
+	}
+	.view-index .section-home .estampas-box:hover {
+	    padding: 10px;
+	}
+	/******************************/
+	/**** Footer Mobile CSS *******/ 
+	/******************************/
+	footer img.logo-footer {
+	    margin-top: 10px;
+	    width: 25%;
+	}
+	footer .conteudo-footer a {
+		font-size: 27px;
+	}
 }
 @media (max-width: 767px) {
 }
