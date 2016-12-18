@@ -25,6 +25,14 @@ $(document).ready(function() {
 		itemsDesktopSmall : [979,3],
 		pagination: true,
 	});
+	$("#owl-venda").owlCarousel({
+		autoPlay: false,
+
+		items : 1,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3],
+		pagination: false
+	});
 
 });
 
@@ -61,6 +69,11 @@ function fixVotacao() {
 
 function votacao(num) {
 	alert("Obrigado por votar na opção " + num);
+}
+
+function slideTo(value) {
+	var carousel = $("#owl-venda");  
+	carousel.trigger('owl.goTo', value);
 }
 
 function scrollCustom(id) {

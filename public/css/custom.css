@@ -29,6 +29,10 @@ ul {
 .no-padding-right {
 	padding-right: 0 !important;
 }
+.no-padding-half {
+	padding-left: 7.5px !important;
+	padding-right: 7.5px !important;
+}
 .transition{
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -86,7 +90,11 @@ header .container {
 .ff-roboto {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
+.custom-texto {
+	font-family: 'Lato';
+	letter-spacing: 1.4px;
+	font-weight: bold;
+}
 /******************************/
 /********* Header CSS *********/ 
 /******************************/
@@ -306,7 +314,62 @@ header .container {
 .view-camisetas .divisor-camisetas {
 	border-top: 1px dashed #eee;
 }
+/******************************/
+/**** Camiseta Venda CSS ******/
+/******************************/
+.view-caminterno {
 
+}
+.view-caminterno .parte-info .cor {
+	border: 1px solid #9a9a9a;
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.view-caminterno .cor.preto {
+	background-color: #000;
+}
+.view-caminterno .cor.branco {
+	background-color: #fff;
+}
+.view-caminterno .cor.cinza {
+	background-color: #444;
+}
+.view-caminterno .cor.vermelho {
+	background-color: #7d011d;
+}
+.view-caminterno .img-venda.imgLiquid {
+	height: 500px;
+}
+.view-caminterno .owl-thumbs {
+	margin-top: 5px;
+}
+.view-caminterno .owl-thumbs li {
+	cursor: pointer;
+}
+.view-caminterno .thumb-venda.imgLiquid {
+	height: 100px;
+}
+.view-caminterno .btn-medidas {
+	padding: 10px;
+	background-color: #f5b9c2;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+.view-caminterno .btn-comprar {
+	background-color: #f5b9c2;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px;
+	width: 50%;
+	margin: 20px 0;
+}
+.view-caminterno .btn-comprar:hover,
+.view-caminterno .btn-medidas:hover {
+	background-color: #ff9ead;
+}
 /******************************/
 /********* Up to You CSS ******/
 /******************************/

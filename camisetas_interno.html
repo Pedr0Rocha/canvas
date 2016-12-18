@@ -41,7 +41,7 @@
         <script src="public/js/owl-carousel/owl.carousel.js"></script>
     </head>
 <body>
-<div class="container view-camisetas">
+<div class="container view-caminterno">
     <header class="col-xs-12 no-padding">
         <div class="header-firstrow col-xs-5 no-padding pull-right">
             <ul class="col-xs-12 no-padding ul-firstrow">
@@ -129,7 +129,63 @@
     </header>
 
     <section class="content-section col-xs-12 no-padding">
+        <div class="parte-info col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <h3 class="ff-lato">Preço: 50,00 R$</h3>
+            <p class="custom-texto">ou 2x de 25,00 R$</p>
 
+            <p class="custom-texto">Selecione a cor:</p>
+            <ul class="col-xs-12 no-padding">
+                <li class="col-xs-4 cor preto" onclick="slideTo(0)"></li>
+                <li class="col-xs-4 cor branco" onclick="slideTo(1)"></li>
+                <li class="col-xs-4 cor cinza" onclick="slideTo(2)"></li>
+                <li class="col-xs-4 cor vermelho" onclick="slideTo(3)"></li>
+            </ul>
+
+            <p class="custom-texto">Descrição:</p> 
+            <p class="ff-lato">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <center><button class="btn btn-comprar ff-lato transition">Comprar</button></center>
+            <p class="custom-texto">Composição:</p> 
+            <p class="ff-lato">93% Viscose, 7% Elastano.</p>
+            <button type="button" class="btn btn-medidas ff-lato transition" data-toggle="modal" data-target=".modal-venda">Tabela de Medidas</button>
+        </div>
+        <div class="parte-imagens col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div id="owl-venda" class="col-xs-12 no-padding">
+                <div class="imgLiquid imgLiquidFill img-venda">
+                    <img src="public/img/1.1.png" alt="Owl Image">
+                </div>
+                <div class="imgLiquid imgLiquidFill img-venda">
+                    <img src="public/img/1.2.png" alt="Owl Image">
+                </div>
+                <div class="imgLiquid imgLiquidFill img-venda">
+                    <img src="public/img/1.3.png" alt="Owl Image">
+                </div>
+                <div class="imgLiquid imgLiquidFill img-venda">
+                    <img src="public/img/1.4.png" alt="Owl Image">
+                </div>
+            </div>
+            <ul class="owl-thumbs col-xs-12 no-padding">
+                <li class="col-xs-3 no-padding-left" onclick="slideTo(0)">
+                    <div class="imgLiquid imgLiquidFill thumb-venda">
+                        <img src="public/img/1.1.png" alt="Owl Image">
+                    </div>
+                </li>
+                <li class="col-xs-3 no-padding-half" onclick="slideTo(1)">
+                    <div class="imgLiquid imgLiquidFill thumb-venda">
+                        <img src="public/img/1.2.png" alt="Owl Image">
+                    </div>
+                </li>
+                <li class="col-xs-3 no-padding-half" onclick="slideTo(2)">
+                    <div class="imgLiquid imgLiquidFill thumb-venda">
+                        <img src="public/img/1.3.png" alt="Owl Image">
+                    </div>
+                </li>
+                <li class="col-xs-3 no-padding-right" onclick="slideTo(3)">
+                    <div class="imgLiquid imgLiquidFill thumb-venda">
+                        <img src="public/img/1.4.png" alt="Owl Image">
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 </div>
 
@@ -177,6 +233,16 @@
     <p class="ff-lato text-center">© Copyright 2016, Todos os direitos reservados - Canvas</p>
     <p class="ff-lato pull-right copyright">Desenvolvido por <a href="mailto:pedrovqrocha@gmail.com">Pedro Rocha</a></p>
 </footer>
+
+<div class="modal fade modal-venda" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content modal-content-votacao ff-lato">
+            Tabela de Medidas
+            <img src="public/img/tabela.png" alt="Tabela de Medidas" class="img-responsive">
+            <button class="btn btn-fechar-votacao col-xs-12" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
