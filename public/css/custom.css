@@ -419,6 +419,21 @@ header .container {
 }
 
 /******************************/
+/****** Girl Gang CSS *********/ 
+/******************************/
+.view-girlgang .sub-frase {
+	margin-top: 8px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	font-weight: bold;
+}
+.view-girlgang .texto-principal {
+	text-align: justify;
+	font-size: 16px;
+}
+
+/******************************/
 /********* Footer CSS *********/ 
 /******************************/
 footer {

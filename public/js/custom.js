@@ -33,7 +33,7 @@ $(document).ready(function() {
 		itemsDesktopSmall : [979,3],
 		pagination: false
 	});
-
+	$('#zoom1').zoom({url: 'public/img/1.1.png'});
 });
 
 $(window).load(function() {
