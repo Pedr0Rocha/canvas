@@ -311,15 +311,19 @@ header .container {
 	height: 55px;
 	overflow: hidden;
 }
+.view-camisetas .item-info .nome {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+.view-camisetas .item-info .valor {
+	margin-top: 3px;
+}
 .view-camisetas .divisor-camisetas {
 	border-top: 1px dashed #eee;
 }
 /******************************/
 /**** Camiseta Venda CSS ******/
 /******************************/
-.view-caminterno {
-
-}
 .view-caminterno .parte-info .cor {
 	border: 1px solid #9a9a9a;
 	width: 50px;
@@ -356,6 +360,7 @@ header .container {
 	background-color: #f5b9c2;
     letter-spacing: 1.4px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .view-caminterno .btn-comprar {
 	background-color: #f5b9c2;
@@ -369,6 +374,12 @@ header .container {
 .view-caminterno .btn-comprar:hover,
 .view-caminterno .btn-medidas:hover {
 	background-color: #ff9ead;
+}
+.view-caminterno .cupom {
+	margin-bottom: 25px;
+	border: none;
+	border-bottom: 2px solid #a9a2a2;
+	text-align: center;
 }
 /******************************/
 /********* Up to You CSS ******/
