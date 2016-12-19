@@ -337,11 +337,11 @@ header .container {
 .view-caminterno .cor.branco {
 	background-color: #fff;
 }
-.view-caminterno .cor.cinza {
-	background-color: #444;
+.view-caminterno .cor.cinza-mescla {
+	background-color: #939393;
 }
-.view-caminterno .cor.vermelho {
-	background-color: #7d011d;
+.view-caminterno .cor.cinza-chumbo {
+	background-color: #343434;
 }
 .view-caminterno .img-venda.imgLiquid {
 	height: 500px;
