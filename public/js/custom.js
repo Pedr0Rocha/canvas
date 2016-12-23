@@ -33,6 +33,22 @@ $(document).ready(function() {
 		itemsDesktopSmall : [979,3],
 		pagination: false
 	});
+	$("#owl-gang").owlCarousel({
+		autoPlay: false,
+
+		items : 1,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3],
+		pagination: false
+	});
+	$("#owl-miniaturas").owlCarousel({
+		autoPlay: false,
+
+		items : 10,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3],
+		pagination: false
+	});
 });
 
 $(window).load(function() {
@@ -70,9 +86,15 @@ function votacao(num) {
 	alert("Obrigado por votar na opção " + num);
 }
 
-function slideTo(value) {
-	var carousel = $("#owl-venda");  
+function slideTo(value, owl) {
+	var carousel = $(owl);  
 	carousel.trigger('owl.goTo', value);
+}
+
+function selectTamanho(num) {
+	for (var i = 1; i < 6; i++)
+		$("#blocoTamanho" + i).removeClass("selected");
+	$("#blocoTamanho" + num).addClass("selected");
 }
 
 function scrollCustom(id) {
