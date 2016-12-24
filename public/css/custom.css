@@ -519,6 +519,10 @@ footer .detalhe-complemento.baixo {
 	left: 100%;
 	bottom: 100%;
 }
+footer .texto-direitos {
+	font-size: 11px;
+	font-weight: bold;
+}
 footer .copyright {   
 	position: absolute;
 	float: right;
