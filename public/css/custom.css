@@ -91,7 +91,7 @@ header .container {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .custom-texto {
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	letter-spacing: 1.4px;
 	font-weight: bold;
 }
@@ -385,7 +385,7 @@ header .container {
 	text-transform: uppercase;
 	padding: 8px;
 	width: 50%;
-	margin: 20px 0;
+	margin: 50px 0px 20px 0;
 }
 .view-caminterno .btn-comprar:hover,
 .view-caminterno .btn-medidas:hover {
