@@ -8,6 +8,7 @@ $(document).ready(function() {
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
 		pagination: true,
+		scrollPerPage: true
 	});
 	$("#owl-votacao2").owlCarousel({
 		autoPlay: 5000,
@@ -16,6 +17,7 @@ $(document).ready(function() {
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
 		pagination: true,
+		scrollPerPage: true
 	});
 	$("#owl-votacao3").owlCarousel({
 		autoPlay: 5000,
@@ -24,6 +26,7 @@ $(document).ready(function() {
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
 		pagination: true,
+		scrollPerPage: true
 	});
 	$("#owl-venda").owlCarousel({
 		autoPlay: false,

@@ -136,7 +136,10 @@ header .container {
 	opacity: 0.95;
 }
 .logo-box {
-	background-image: url(../img/bricks4.jpg);
+	background-image: url(../img/bricks5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	border-radius: 10px 10px 0 0;
 }
 .input-busca {
