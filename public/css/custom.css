@@ -475,6 +475,12 @@ header .container {
 .view-girlgang .owl-thumbs .imgLiquid {
 	height: 100px;
 }
+.view-girlgang .img-horizontal {
+	width: 100%;
+}
+.view-girlgang .img-vertical {
+	width: 45%;
+}
 
 /******************************/
 /********* Footer CSS *********/ 

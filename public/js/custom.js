@@ -42,8 +42,13 @@ $(document).ready(function() {
 		items : 1,
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
-		pagination: false
-	});
+		pagination: false,
+		navigation: true,
+		navigationText: [
+   			"<i class='fa fa-chevron-left'></i>",
+  			"<i class='fa fa-chevron-right'></i>"
+  		]
+		});
 	$("#owl-miniaturas").owlCarousel({
 		autoPlay: false,
 
