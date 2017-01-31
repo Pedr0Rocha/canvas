@@ -55,6 +55,7 @@ $(document).ready(function() {
 		items : 10,
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
+		itemsMobile: [800, 3],
 		pagination: false
 	});
 });
@@ -103,6 +104,14 @@ function selectTamanho(num) {
 	for (var i = 1; i < 6; i++)
 		$("#blocoTamanho" + i).removeClass("selected");
 	$("#blocoTamanho" + num).addClass("selected");
+}
+
+function toggleMenuMobile() {
+	var menuMobile = $("#menu-mobile");
+	if (menuMobile.hasClass("open"))
+		menuMobile.removeClass("open").addClass("closed");
+	else
+		menuMobile.removeClass("closed").addClass("open");
 }
 
 function scrollCustom(id) {

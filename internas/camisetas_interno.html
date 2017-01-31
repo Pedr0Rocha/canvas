@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="" />
+        <meta name="viewport" content="width=device-width" />
         <!--[if gte IE 8]>
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
         <![endif]-->
@@ -46,88 +47,146 @@
 <body>
 <div class="container view-caminterno">
     <header class="col-xs-12 no-padding">
-        <div class="header-firstrow col-xs-5 no-padding pull-right">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Login</a>
-                </li>
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
-                </li>
-                <li class="col-xs-5 no-padding-right">
-                    <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
-                </li>
-                <li class="col-xs-1 no-padding li-lupa">
-                    <i class="fa fa-search"></i>
-                </li>
-            </ul>
-        </div>
-        <div class="header-firstrow left col-xs-7 no-padding pull-left">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-4 ff-lato vantagens">
-                    Frete Grátis <i class="fa fa-truck"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Troca Garantida <i class="fa fa-exchange"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Tamanhos Variados <i class="fa fa-tags"></i>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-xs-12 no-padding logo-box">
-            <div class="col-xs-6 no-padding">
-                <a href="../index.html"><img src="../public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
-            </div>
-            <div class="col-xs-6 no-padding redes-sociais">
-                <ul class="col-xs-12 no-padding">
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+        <!-- DESKTOP HEADER -->
+        <div class="desktop-header col-xs-12 no-padding hidden-xs hidden-sm">
+            <div class="header-firstrow col-xs-5 no-padding pull-right">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Login</a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                    <li class="col-xs-5 no-padding-right">
+                        <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
+                    </li>
+                    <li class="col-xs-1 no-padding li-lupa">
+                        <i class="fa fa-search"></i>
                     </li>
                 </ul>
             </div>
-        </div>
+            <div class="header-firstrow left col-xs-7 no-padding pull-left">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-xs-12 no-padding bg-white">
-            <ul class="col-xs-12 no-padding ul-menu pull-right">
-                <a href="../index.html" class="no-padding">
-                    <li class="col-xs-2 transition ff-lato">
-                        Home 
-                    </li>
-                </a>
-                <a href="../camisetas.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Camisetas 
-                    </li>
-                </a>
-                <a href="../uptoyou.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Up to You 
-                    </li>
-                </a>
-                <a href="../girlgang.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Girl Gang <i class="fa fa-venus"></i>
-                    </li>
-                </a>
-                <a href="../sobre.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Sobre a Canvas
-                    </li>
-                </a>
-            </ul>
+            <div class="col-xs-12 no-padding logo-box">
+                <div class="col-xs-6 no-padding">
+                    <a href="../index.html"><img src="../public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </div>
+                <div class="col-xs-6 no-padding redes-sociais">
+                    <ul class="col-xs-12 no-padding">
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xs-12 no-padding bg-white">
+                <ul class="col-xs-12 no-padding ul-menu pull-right">
+                    <a href="../index.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Home 
+                        </li>
+                    </a>
+                    <a href="../camisetas.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Camisetas 
+                        </li>
+                    </a>
+                    <a href="../uptoyou.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Up to You 
+                        </li>
+                    </a>
+                    <a href="../girlgang.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Girl Gang <i class="fa fa-venus"></i>
+                        </li>
+                    </a>
+                    <a href="../sobre.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Sobre a Canvas
+                        </li>
+                    </a>
+                </ul>
+            </div>
         </div>
+        <!-- DESKTOP HEADER END -->
+
+        <!-- MOBILE HEADER -->
+        <div class="mobile-header col-xs-12 no-padding hidden-md hidden-lg">
+            <div class="col-xs-12 no-padding">
+                <center>
+                    <a href="../index.html"><img src="../public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </center>
+            </div>
+            <div class="menu-box" onclick="toggleMenuMobile()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="features-box col-xs-12 no-padding">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-mobile" class="col-xs-7 no-padding menu closed transition">
+                <ul class="col-xs-12 no-padding">
+                    <a href="../index.html">
+                        <li class="col-xs-12 custom-texto">
+                            Home
+                        </li>
+                    </a>
+                    <a href="../camisetas.html">
+                        <li class="col-xs-12 custom-texto">
+                            Camisetas
+                        </li>
+                    </a>
+                    <a href="../uptoyou.html">
+                        <li class="col-xs-12 custom-texto">
+                            Up to You
+                        </li>
+                    </a>
+                    <a href="../girlgang.html">
+                        <li class="col-xs-12 custom-texto">
+                            Girl Gang
+                        </li>
+                    </a>
+                    <a href="../sobre.html">
+                        <li class="col-xs-12 custom-texto">
+                            Sobre
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div> <!-- MOBILE HEADER END -->
     </header>
 
     <section class="content-section col-xs-12 no-padding">
-        <div class="parte-info col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="parte-info col-xs-12 col-sm-12 col-md-6 col-lg-6 hidden-xs hidden-sm">
             <h3 class="ff-lato">Preço: R$ 59,90</h3>
             <p class="custom-texto">ou 2x de R$ 29,95</p>
 
@@ -196,6 +255,37 @@
                 </li>
             </ul>
         </div>
+        <div class="parte-info col-xs-12 col-sm-12 col-md-6 col-lg-6 hidden-md hidden-lg">
+            <h3 class="ff-lato">Preço: R$ 59,90</h3>
+            <p class="custom-texto">ou 2x de R$ 29,95</p>
+
+            <p class="custom-texto">Selecione a cor:</p>
+            <ul class="col-xs-12 no-padding">
+                <li class="col-xs-4 cor preto" onclick="slideTo(0, '#owl-venda')"></li>
+                <li class="col-xs-4 cor cinza-chumbo" onclick="slideTo(1, '#owl-venda')"></li>
+                <li class="col-xs-4 cor cinza-mescla" onclick="slideTo(2, '#owl-venda')"></li>
+                <li class="col-xs-4 cor branco" onclick="slideTo(3, '#owl-venda')"></li>
+            </ul>
+
+            <p class="custom-texto">Selecione o tamanho:</p>
+            <ul class="col-xs-12 no-padding">
+                <li id="blocoTamanho1" class="col-xs-4 tamanho ff-lato selected transition" onclick="selectTamanho(1)">PP</li>
+                <li id="blocoTamanho2" class="col-xs-4 tamanho ff-lato transition" onclick="selectTamanho(2)">P</li>
+                <li id="blocoTamanho3" class="col-xs-4 tamanho ff-lato transition" onclick="selectTamanho(3)">M</li>
+                <li id="blocoTamanho4" class="col-xs-4 tamanho ff-lato transition" onclick="selectTamanho(4)">G</li>
+                <li id="blocoTamanho5" class="col-xs-4 tamanho ff-lato transition" onclick="selectTamanho(5)">GG</li>
+            </ul>
+
+            <p class="custom-texto">Descrição:</p> 
+            <p class="ff-lato">Camiseta 100% algodão estampada artesanalmente pelo processo de serigrafia.</p>
+            <p class="custom-texto">Artista:</p> 
+            <p class="ff-lato">Vitória Santos Cruz</p>
+            <button type="button" class="btn btn-medidas ff-lato transition text-uppercase" data-toggle="modal" data-target=".modal-venda">Tabela de Medidas</button>
+            <center><button class="btn btn-comprar ff-lato transition">Comprar</button></center>
+            <center><input type="text" class="cupom transition" name="cupom" placeholder="CUPOM DESCONTO"></center>
+            <!-- <p class="custom-texto">Composição:</p> 
+            <p class="ff-lato">93% Viscose, 7% Elastano.</p> -->
+        </div>
     </section>
 </div>
 
@@ -208,27 +298,27 @@
             
             <img src="../public/img/canvaslogo2.png" class="logo-footer no-padding img-responsive center-block" alt="Canvas Logo Footer" title="Canvas Logo Footer">
             <ul class="col-xs-12 no-padding">
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Segurança
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Pagamento
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Política de Privacidade
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Trocas e Devoluções
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Contato
                     </li>

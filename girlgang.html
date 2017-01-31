@@ -2,6 +2,7 @@
 <html>
     <head>
     <link rel="shortcut icon" href="" />
+    <meta name="viewport" content="width=device-width" />
     <!--[if gte IE 8]>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
     <![endif]-->
@@ -48,84 +49,142 @@
 <body>
 <div class="container view-girlgang">
     <header class="col-xs-12 no-padding">
-        <div class="header-firstrow col-xs-5 no-padding pull-right">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Login</a>
-                </li>
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
-                </li>
-                <li class="col-xs-5 no-padding-right">
-                    <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
-                </li>
-                <li class="col-xs-1 no-padding li-lupa">
-                    <i class="fa fa-search"></i>
-                </li>
-            </ul>
-        </div>
-        <div class="header-firstrow left col-xs-7 no-padding pull-left">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-4 ff-lato vantagens">
-                    Frete Grátis <i class="fa fa-truck"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Troca Garantida <i class="fa fa-exchange"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Tamanhos Variados <i class="fa fa-tags"></i>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-xs-12 no-padding logo-box">
-            <div class="col-xs-6 no-padding">
-                <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
-            </div>
-            <div class="col-xs-6 no-padding redes-sociais">
-                <ul class="col-xs-12 no-padding">
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+        <!-- DESKTOP HEADER -->
+        <div class="desktop-header col-xs-12 no-padding hidden-xs hidden-sm">
+            <div class="header-firstrow col-xs-5 no-padding pull-right">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Login</a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                    <li class="col-xs-5 no-padding-right">
+                        <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
+                    </li>
+                    <li class="col-xs-1 no-padding li-lupa">
+                        <i class="fa fa-search"></i>
                     </li>
                 </ul>
             </div>
-        </div>
+            <div class="header-firstrow left col-xs-7 no-padding pull-left">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-xs-12 no-padding bg-white">
-            <ul class="col-xs-12 no-padding ul-menu pull-right">
-                <a href="index.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Home 
-                    </li>
-                </a>
-                <a href="camisetas.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Camisetas 
-                    </li>
-                </a>
-                <a href="uptoyou.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Up to You 
-                    </li>
-                </a>
-                <a href="girlgang.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Girl Gang <i class="fa fa-venus"></i>
-                    </li>
-                </a>
-                <a href="sobre.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Sobre a Canvas
-                    </li>
-                </a>
-            </ul>
+            <div class="col-xs-12 no-padding logo-box">
+                <div class="col-xs-6 no-padding">
+                    <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </div>
+                <div class="col-xs-6 no-padding redes-sociais">
+                    <ul class="col-xs-12 no-padding">
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xs-12 no-padding bg-white">
+                <ul class="col-xs-12 no-padding ul-menu pull-right">
+                    <a href="index.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Home 
+                        </li>
+                    </a>
+                    <a href="camisetas.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Camisetas 
+                        </li>
+                    </a>
+                    <a href="uptoyou.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Up to You 
+                        </li>
+                    </a>
+                    <a href="girlgang.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Girl Gang <i class="fa fa-venus"></i>
+                        </li>
+                    </a>
+                    <a href="sobre.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Sobre a Canvas
+                        </li>
+                    </a>
+                </ul>
+            </div>
         </div>
+        <!-- DESKTOP HEADER END -->
+
+        <!-- MOBILE HEADER -->
+        <div class="mobile-header col-xs-12 no-padding hidden-md hidden-lg">
+            <div class="col-xs-12 no-padding">
+                <center>
+                    <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </center>
+            </div>
+            <div class="menu-box" onclick="toggleMenuMobile()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="features-box col-xs-12 no-padding">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-mobile" class="col-xs-7 no-padding menu closed transition">
+                <ul class="col-xs-12 no-padding">
+                    <a href="index.html">
+                        <li class="col-xs-12 custom-texto">
+                            Home
+                        </li>
+                    </a>
+                    <a href="camisetas.html">
+                        <li class="col-xs-12 custom-texto">
+                            Camisetas
+                        </li>
+                    </a>
+                    <a href="uptoyou.html">
+                        <li class="col-xs-12 custom-texto">
+                            Up to You
+                        </li>
+                    </a>
+                    <a href="girlgang.html">
+                        <li class="col-xs-12 custom-texto">
+                            Girl Gang
+                        </li>
+                    </a>
+                    <a href="sobre.html">
+                        <li class="col-xs-12 custom-texto">
+                            Sobre
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div> <!-- MOBILE HEADER END -->
     </header>
 
     <div class="parte-imagens col-xs-12 no-padding">
@@ -221,132 +280,132 @@
                     <img src="public/img/girlgang/gg_1.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(1, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(1, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_2.1.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-half" onclick="slideTo(2, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(2, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_2.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-half" onclick="slideTo(3, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(3, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_3.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(4, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(4, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_4.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(5, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(5, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_5.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(6, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(6, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_6.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(7, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(7, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_7.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(8, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(8, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_8.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(9, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(9, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_9.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(10, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(10, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_10.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(11, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(11, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_11.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(12, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(12, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_12.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(13, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(13, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_13.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(14, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(14, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_14.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(15, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(15, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_15.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(16, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(16, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_16.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(17, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(17, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_17.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(18, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(18, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_18.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(19, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(19, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_19.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(20, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(20, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_20.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(21, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(21, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_21.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(22, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(22, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_22.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(23, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(23, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_23.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(24, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(24, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_25.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(25, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(25, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_26.jpg" alt="Owl Image">
                 </div>
             </div>
-            <div class="col-xs-12 no-padding-right" onclick="slideTo(26, '#owl-gang')">
+            <div class="col-xs-12 miniaturas" onclick="slideTo(26, '#owl-gang')">
                 <div class="col-xs-12 thumb-gang imgLiquid imgLiquidFill">
                     <img src="public/img/girlgang/gg_27.jpg" alt="Owl Image">
                 </div>
@@ -355,12 +414,12 @@
          <div class="col-xs-12 no-padding titulo-section-box">
             <span class="ff-lato titulo-section">GIRL GANG</span>
         </div>
-        <p class="col-xs-6 ff-lato texto-principal text-center">A Canvas apresenta a Girl Gang, uma coleção que foi pensada e desenvolvida especialmente para você que sabe muito bem que mulher não é sinônimo de delicadeza. Força, resistência e luta a todas as gangues de garotas! 
+        <p class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ff-lato texto-principal text-center">A Canvas apresenta a Girl Gang, uma coleção que foi pensada e desenvolvida especialmente para você que sabe muito bem que mulher não é sinônimo de delicadeza. Força, resistência e luta a todas as gangues de garotas! 
         <br>
         <br>
         Vitória Santos Cruz, a artista escolhida por vocês para criar as estampas da coleção Girl Gang, diz que viu no Projeto Canvas uma oportunidade de expor sua arte e incentivar outras mulheres a fazer o mesmo.
         </p>
-        <p class="col-xs-6 ff-lato texto-principal"> Nosso objetivo é empoderar cada vez mais mulheres. Pensando nisso, toda a produção da coleção foi feita exclusivamente por mulheres.
+        <p class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ff-lato texto-principal"> Nosso objetivo é empoderar cada vez mais mulheres. Pensando nisso, toda a produção da coleção foi feita exclusivamente por mulheres.
         <br><br>
         <strong>Produção e direção:</strong> Beatriz Castells
         <br>
@@ -372,7 +431,10 @@
         <br>
         <strong>Modelos:</strong> Ana Jackson, Carolina Dantas, Isadora Limonta e Luisa Krauze
         </p>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/B8RsI93EpQE" frameborder="0" allowfullscreen></iframe></center>
+        <center>
+            <iframe class="hidden-xs hidden-sm" width="560" height="315" src="https://www.youtube.com/embed/B8RsI93EpQE" frameborder="0" allowfullscreen></iframe>
+            <iframe class="hidden-md hidden-lg" width="300" height="315" src="https://www.youtube.com/embed/B8RsI93EpQE" frameborder="0" allowfullscreen></iframe>
+        </center>
     </section>
 </div>
 
@@ -385,27 +447,27 @@
             
             <img src="public/img/canvaslogo2.png" class="logo-footer no-padding img-responsive center-block" alt="Canvas Logo Footer" title="Canvas Logo Footer">
             <ul class="col-xs-12 no-padding">
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Segurança
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Pagamento
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Política de Privacidade
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Trocas e Devoluções
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Contato
                     </li>

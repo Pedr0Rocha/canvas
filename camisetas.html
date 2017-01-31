@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="" />
+        <meta name="viewport" content="width=device-width" />
         <!--[if gte IE 8]>
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
         <![endif]-->
@@ -133,10 +134,10 @@
         <div class="mobile-header col-xs-12 no-padding hidden-md hidden-lg">
             <div class="col-xs-12 no-padding">
                 <center>
-                    <img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo">
+                    <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
                 </center>
             </div>
-            <div class="menu-box">
+            <div class="menu-box" onclick="toggleMenuMobile()">
                 <i class="fa fa-bars"></i>
             </div>
             <div class="features-box col-xs-12 no-padding">
@@ -152,13 +153,42 @@
                     </li>
                 </ul>
             </div>
+            <div id="menu-mobile" class="col-xs-7 no-padding menu closed transition">
+                <ul class="col-xs-12 no-padding">
+                    <a href="index.html">
+                        <li class="col-xs-12 custom-texto">
+                            Home
+                        </li>
+                    </a>
+                    <a href="camisetas.html">
+                        <li class="col-xs-12 custom-texto">
+                            Camisetas
+                        </li>
+                    </a>
+                    <a href="uptoyou.html">
+                        <li class="col-xs-12 custom-texto">
+                            Up to You
+                        </li>
+                    </a>
+                    <a href="girlgang.html">
+                        <li class="col-xs-12 custom-texto">
+                            Girl Gang
+                        </li>
+                    </a>
+                    <a href="sobre.html">
+                        <li class="col-xs-12 custom-texto">
+                            Sobre
+                        </li>
+                    </a>
+                </ul>
+            </div>
         </div>
         <!-- MOBILE HEADER END -->
     </header>
 
     <section class="listagem-camisetas content-section col-xs-12 no-padding">
         <ul class="col-xs-12 no-padding">
-            <li class="item-prod col-xs-6 col-sm-6 col-md-3 transition">
+            <li class="item-prod col-xs-12 col-sm-12 col-md-3 transition">
                 <div class="imgLiquid imgLiquidFill img-estampas transition">
                     <a href="internas/camisetas_interno.html">
                         <img src="public/img/camisetas/c_faca_principal.jpg" class="img-responsive transition" alt="Estampa 2" title="Estampa 2">
@@ -197,7 +227,7 @@
                     </div>
                 </a>
             </li>
-            <li class="item-prod col-xs-6 col-sm-6 col-md-3 transition">
+            <li class="item-prod col-xs-12 col-sm-12 col-md-3 transition">
                 <div class="imgLiquid imgLiquidFill img-estampas transition">
                     <a href="internas/camisetas_interno4.html">
                         <img src="public/img/camisetas/c_martelo_principal.jpg" class="img-responsive transition" alt="Estampa 2" title="Estampa 2">
@@ -226,27 +256,27 @@
             
             <img src="public/img/canvaslogo2.png" class="logo-footer no-padding img-responsive center-block" alt="Canvas Logo Footer" title="Canvas Logo Footer">
             <ul class="col-xs-12 no-padding">
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Segurança
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Pagamento
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Política de Privacidade
                     </li>
                 </a>
-                <a href="" class="col-xs-3 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Trocas e Devoluções
                     </li>
                 </a>
-                <a href="" class="col-xs-2 no-padding transition">
+                <a href="" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 no-padding transition">
                     <li class="ff-lato col-xs-12 no-padding">
                         Contato
                     </li>

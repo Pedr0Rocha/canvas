@@ -2,6 +2,7 @@
 <html>
     <head>
     <link rel="shortcut icon" href="" />
+    <meta name="viewport" content="width=device-width" />
     <!--[if gte IE 8]>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
     <![endif]-->
@@ -47,85 +48,143 @@
 
 <body>
 <div class="container view-uptoyou">
-    <header class="col-xs-12 no-padding">
-        <div class="header-firstrow col-xs-5 no-padding pull-right">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Login</a>
-                </li>
-                <li class="col-xs-3">
-                    <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
-                </li>
-                <li class="col-xs-5 no-padding-right">
-                    <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
-                </li>
-                <li class="col-xs-1 no-padding li-lupa">
-                    <i class="fa fa-search"></i>
-                </li>
-            </ul>
-        </div>
-        <div class="header-firstrow left col-xs-7 no-padding pull-left">
-            <ul class="col-xs-12 no-padding ul-firstrow">
-                <li class="col-xs-4 ff-lato vantagens">
-                    Frete Grátis <i class="fa fa-truck"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Troca Garantida <i class="fa fa-exchange"></i>
-                </li>
-                <li class="col-xs-4 ff-lato vantagens">
-                    Tamanhos Variados <i class="fa fa-tags"></i>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-xs-12 no-padding logo-box">
-            <div class="col-xs-6 no-padding">
-                <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
-            </div>
-            <div class="col-xs-6 no-padding redes-sociais">
-                <ul class="col-xs-12 no-padding">
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+ <header class="col-xs-12 no-padding">
+        <!-- DESKTOP HEADER -->
+        <div class="desktop-header col-xs-12 no-padding hidden-xs hidden-sm">
+            <div class="header-firstrow col-xs-5 no-padding pull-right">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Login</a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                    <li class="col-xs-3">
+                        <a href="" class="ff-lato">Sacola <i class="fa fa-shopping-bag"></i></a>
                     </li>
-                    <li class="col-xs-12">
-                        <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                    <li class="col-xs-5 no-padding-right">
+                        <input class="col-xs-12 input-busca" type="text" name="busca" placeholder="buscar no site">
+                    </li>
+                    <li class="col-xs-1 no-padding li-lupa">
+                        <i class="fa fa-search"></i>
                     </li>
                 </ul>
             </div>
-        </div>
+            <div class="header-firstrow left col-xs-7 no-padding pull-left">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-xs-12 no-padding bg-white">
-            <ul class="col-xs-12 no-padding ul-menu pull-right">
-                <a href="index.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Home 
-                    </li>
-                </a>
-                <a href="camisetas.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Camisetas 
-                    </li>
-                </a>
-                <a href="uptoyou.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Up to You 
-                    </li>
-                </a>
-                <a href="girlgang.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Girl Gang <i class="fa fa-venus"></i>
-                    </li>
-                </a>
-                <a href="sobre.html" class="no-padding">
-                    <li class="col-xs-2  transition ff-lato">
-                        Sobre a Canvas
-                    </li>
-                </a>
-            </ul>
+            <div class="col-xs-12 no-padding logo-box">
+                <div class="col-xs-6 no-padding">
+                    <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </div>
+                <div class="col-xs-6 no-padding redes-sociais">
+                    <ul class="col-xs-12 no-padding">
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-facebook-square transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-instagram transition"></i></a>
+                        </li>
+                        <li class="col-xs-12">
+                            <a href="" target="_blank"><i class="fa fa-pinterest transition"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xs-12 no-padding bg-white">
+                <ul class="col-xs-12 no-padding ul-menu pull-right">
+                    <a href="index.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Home 
+                        </li>
+                    </a>
+                    <a href="camisetas.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Camisetas 
+                        </li>
+                    </a>
+                    <a href="uptoyou.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Up to You 
+                        </li>
+                    </a>
+                    <a href="girlgang.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Girl Gang <i class="fa fa-venus"></i>
+                        </li>
+                    </a>
+                    <a href="sobre.html" class="no-padding">
+                        <li class="col-xs-2 transition ff-lato">
+                            Sobre a Canvas
+                        </li>
+                    </a>
+                </ul>
+            </div>
         </div>
+        <!-- DESKTOP HEADER END -->
+
+        <!-- MOBILE HEADER -->
+        <div class="mobile-header col-xs-12 no-padding hidden-md hidden-lg">
+            <div class="col-xs-12 no-padding">
+                <center>
+                    <a href="index.html"><img src="public/img/canvaslogo2.png" class="imglogo no-padding img-responsive" title="Canvas Logo" alt="Canvas Logo"></a>
+                </center>
+            </div>
+            <div class="menu-box" onclick="toggleMenuMobile()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="features-box col-xs-12 no-padding">
+                <ul class="col-xs-12 no-padding ul-firstrow">
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Frete Grátis <i class="fa fa-truck"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Troca Garantida <i class="fa fa-exchange"></i>
+                    </li>
+                    <li class="col-xs-4 ff-lato vantagens">
+                        Tamanhos Variados <i class="fa fa-tags"></i>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-mobile" class="col-xs-7 no-padding menu closed transition">
+                <ul class="col-xs-12 no-padding">
+                    <a href="index.html">
+                        <li class="col-xs-12 custom-texto">
+                            Home
+                        </li>
+                    </a>
+                    <a href="camisetas.html">
+                        <li class="col-xs-12 custom-texto">
+                            Camisetas
+                        </li>
+                    </a>
+                    <a href="uptoyou.html">
+                        <li class="col-xs-12 custom-texto">
+                            Up to You
+                        </li>
+                    </a>
+                    <a href="girlgang.html">
+                        <li class="col-xs-12 custom-texto">
+                            Girl Gang
+                        </li>
+                    </a>
+                    <a href="sobre.html">
+                        <li class="col-xs-12 custom-texto">
+                            Sobre
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div> <!-- MOBILE HEADER END -->
     </header>
 
     <section class="section-votacao content-section col-xs-12 no-padding">
@@ -136,32 +195,32 @@
         </div>
         <ul class="col-xs-12 no-padding ul-votacao"> 
             <li class="item-prod col-xs-12">
-                <div id="foto-votacao1" class="col-xs-4 no-padding-left">
+                <div id="foto-votacao1" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 no-padding-mobile no-padding-left">
                     <img src="public/img/artista1.png" class="img-responsive" alt="" title="">
                 </div>
-                <div id="info-votacao1" class="col-xs-8 no-padding">
+                <div id="info-votacao1" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 no-padding">
                     <h3 class="col-xs-12 no-padding titulo-votacao ff-lato">Bruna Farias - 18 anos - Porto Alegre RS</h3>
                     <p id="texto-votacao1" class="col-xs-12 no-padding texto-votacao ff-ptsans">
                     Bruna acabou de ser aprovada na faculdade de Artes Visuais. Sempre soube que queria tornar profissão o amor que tem pela ilustração. Interessou-se há pouco tempo pela temática da coleção e isso influenciou muito seu processo de criação. Bruna se diz admiradora do Projeto Canvas e está torcendo para ser a escolhida. Suas ilustrações foram escolhida pois adotam uma estética minimalista e contemporânea. 
                     </p>
                     <span onclick="abreTexto(1, this)" class="btn-ver-mais ff-lato">Ver mais</span>
                     <div id="owl-votacao1" class="col-xs-12 no-padding">
-                        <div class="item esq">
+                        <div class="item esq no-padding-mobile">
                             <div class="imgLiquid imgLiquidFill img-votacao">
                                 <img src="public/img/1.1.png" alt="Owl Image">
                             </div>
                         </div>
-                        <div class="item dir">
+                        <div class="item dir no-padding-mobile">
                             <div class="imgLiquid imgLiquidFill img-votacao">
                                 <img src="public/img/1.2.png" alt="Owl Image">
                             </div>
                         </div>
-                        <div class="item esq">
+                        <div class="item esq no-padding-mobile">
                             <div class="imgLiquid imgLiquidFill img-votacao">
                                 <img src="public/img/1.3.png" alt="Owl Image">
                             </div>
                         </div>
-                        <div class="item dir">
+                        <div class="item dir no-padding-mobile">
                             <div class="imgLiquid imgLiquidFill img-votacao">
                                 <img src="public/img/1.4.png" alt="Owl Image">
                             </div>
@@ -170,11 +229,14 @@
                     <button type="button" class="btn btn-vote col-xs-12 ff-lato transition" data-toggle="modal" data-target=".modal-votacao">VOTE</button>
                 </div>
             </li> 
+
+            <div class="divisor-mobile col-xs-10 col-xs-offset-1 hidden-md hidden-lg"></div>
+
             <li class="item-prod col-xs-12">
-                <div id="foto-votacao2" class="col-xs-4 no-padding-left">
+                <div id="foto-votacao2" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 no-padding-mobile no-padding-left">
                     <img src="public/img/artista2.png" class="img-responsive" alt="" title="">
                 </div>
-                <div id="info-votacao2" class="col-xs-8 no-padding">
+                <div id="info-votacao2" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 no-padding">
                     <h3 class="col-xs-12 no-padding titulo-votacao ff-lato">Anna Machado - 25 anos - Rio de Janeiro RJ</h3>
                     <p id="texto-votacao2" class="col-xs-12 no-padding texto-votacao ff-ptsans">
                     Anna é formada em Psicologia mas sua grande paixão sempre foi a arte. Dedica seu tempo livre à ilustração e também é amante da gastronomia. Acredita que o Projeto Canvas possa desenvolver o lado criativo das mulheres e divulgar novos talentos. Suas frases curtas foram escolhidas pois causam impacto e reforçam ideais de luta e resistência.
@@ -205,11 +267,14 @@
                     <button type="button" class="btn btn-vote col-xs-12 ff-lato transition" data-toggle="modal" data-target=".modal-votacao">VOTE</button>
                 </div>
             </li> 
+
+            <div class="divisor-mobile col-xs-10 col-xs-offset-1 hidden-md hidden-lg"></div>
+
             <li class="item-prod col-xs-12">
-                <div id="foto-votacao1" class="col-xs-4 no-padding-left">
+                <div id="foto-votacao3" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 no-padding-mobile no-padding-left">
                     <img src="public/img/artista3.png" class="img-responsive" alt="" title="">
                 </div>
-                <div id="info-votacao3" class="col-xs-8 no-padding">
+                <div id="info-votacao3" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 no-padding">
                     <h3 class="col-xs-12 no-padding titulo-votacao ff-lato">Vitória Santos Cruz - 22 anos - Maringa PR</h3>
                     <p id="texto-votacao3" class="col-xs-12 no-padding texto-votacao ff-ptsans">
                     Vitória está cursando o último ano de Comunicação e Multimeios. Desde criança desenhava e hoje faz isso profissionalmente. Vitória diz que esse espaço ainda é dominado pelos homens, que raramente são receptivos às artistas mulheres. Acredita que o Projeto Canvas possa criar novas possibilidades de exposição e dar visibilidade às mulheres que estão nessa luta.

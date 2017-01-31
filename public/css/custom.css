@@ -481,6 +481,9 @@ header .container {
 .view-girlgang .img-vertical {
 	width: 45%;
 }
+.view-girlgang .miniaturas {
+	padding: 2px;
+}
 
 /******************************/
 /********* Sobre CSS *********/ 
@@ -574,7 +577,7 @@ footer .copyright {
 	font-size: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 	/******************************/
 	/**** Basic Mobile CSS ********/ 
 	/******************************/
@@ -582,31 +585,39 @@ footer .copyright {
 		width: 100% !important;
 		padding: 0 !important;
 	}
+	.no-padding-mobile {
+		padding: 0 !important;
+	}
+	.divisor-mobile {
+		border-top: 2px solid #afafaf;
+		margin: 10px 0 15px 0;
+	}
 	/******************************/
 	/**** Header Mobile CSS *******/ 
 	/******************************/
 	.mobile-header {
-		background-image: url(../img/bricks4.jpg);
+		background-image: url(../img/bricks5.jpg);
+		background-size: 150%;
 	}
 	.mobile-header .imglogo {
 		width: 30%;
 	}
 	.mobile-header .menu-box {
-		position: absolute;
-		margin: auto;
-		left: 80%;
-		right: 0;
-		width: 15%;
-		border: 3px solid #000;
-		border-radius: 10px;
-		text-align: center;
-		padding: 15px 10px;
-		margin-top: 25px;
-		background-color: #fff;
-		opacity: 0.9;
+	    position: absolute;
+	    margin: auto;
+	    left: 80%;
+	    right: 0;
+	    width: 15%;
+	    border: 2px solid #444;
+	    border-radius: 10px;
+	    text-align: center;
+	    padding: 10px;
+	    margin-top: 20px;
+	    background-color: #fff;
+	    opacity: 0.9;
 	}
 	.mobile-header .fa-bars {
-		font-size: 75px;
+		font-size: 25px;
 	}
 	.mobile-header .features-box {
 		background-color: #000;
@@ -614,27 +625,93 @@ footer .copyright {
 	.mobile-header .features-box li {
 		text-align: center;
 	}
+	.mobile-header .menu {
+		z-index: 9;
+		position: absolute;
+		margin: auto;
+	    right: 0;
+	    left: 0;
+	}
+	.mobile-header .menu.open {
+	    top: 15%;
+	}
+	.mobile-header .menu.closed {
+	    top: -400px;
+	}
+	.mobile-header .menu li {
+		text-align: center;
+		padding: 17px;
+		background-color: #fff;
+		color: #444;
+		text-transform: uppercase;
+    	border-bottom: 2px solid #444;
+    	border-right: 1px solid #444;
+    	margin-bottom: 2px;
+    	border-radius: 3px;
+	}
 	.ul-firstrow li.vantagens {
 		margin-top: 6px;
-	    font-size: 21px;
+		font-size: 10px;
 	    color: #fff;
 	}
 	.titulo-section {
-	    font-size: 85px;
 	    border-top: 3px solid #565656;
 	    border-bottom: 3px solid #565656;
 	}
 	/******************************/
 	/**** Index Mobile CSS ********/ 
 	/******************************/
-	.view-index .section-home .sub-frase {
-	    font-size: 27px;
-	}
 	.view-index .section-home .img-estampas.imgLiquid {
-	    height: 645px;
+	    height: 245px;
 	}
 	.view-index .section-home .estampas-box:hover {
 	    padding: 10px;
+	}
+	.view-index .section-home .estampas-box {
+		border: 1.5px solid #f5b9c2 !important
+	}
+	.view-index .section-home .ul-votacao li {
+		margin-bottom: 10px;
+	}
+	/******************************/
+	/**** Camisetas Mobile CSS ****/ 
+	/******************************/
+	.view-camisetas .listagem-camisetas .item-info {
+	}
+	.view-camisetas .listagem-camisetas li {
+		padding: 2.5px;
+	}
+	/******************************/
+	/**** Sobre Mobile CSS ********/ 
+	/******************************/
+	.view-sobre .icones {
+		margin-top: 25px;
+    	min-height: 100px;
+	}
+	.view-sobre .icone-sobre {
+		font-size: 20px;
+    	padding: 15px 20px;
+	}
+	.view-sobre .icone-sobre.fa-bullhorn {
+    	padding: 15px;
+	}
+	.view-sobre .texto-icone {
+		font-size: 10px;
+	}
+	.view-sobre .icone-sobre:hover + .texto-icone {
+		font-size: 12px;
+	}
+	/********************************/
+	/* Camisetas Interna Mobile CSS */ 
+	/********************************/
+	.view-caminterno .img-venda.imgLiquid {
+	    height: 400px;
+	}
+	.view-caminterno .parte-imagens {
+		margin-top: 25px;
+	}
+	.view-caminterno .btn-comprar {
+		width: 70%;
 	}
 	/******************************/
 	/**** Footer Mobile CSS *******/ 
@@ -643,9 +720,4 @@ footer .copyright {
 	    margin-top: 10px;
 	    width: 25%;
 	}
-	footer .conteudo-footer a {
-		font-size: 27px;
-	}
-}
-@media (max-width: 767px) {
 }
