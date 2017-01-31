@@ -679,15 +679,8 @@ footer .copyright {
 	.view-camisetas .listagem-camisetas li {
 		padding: 2.5px;
 	}
-	.view-camisetas .listagem-camisetas li:not(.no-hoverxs):hover {
-		border: 1px solid #f5b9c2;
-		padding: 0;
-	}
-	.view-camisetas .listagem-camisetas li:not(.no-hoverxs):hover .img-estampas {
-		margin: 0;
-	}
-	.view-camisetas .listagem-camisetas li:not(.no-hoverxs):hover .item-info {
-		padding: 0 15px;
+	.view-camisetas .divisor-mobile {
+		border-color: #eee;
 	}
 	/******************************/
 	/**** Sobre Mobile CSS ********/ 
